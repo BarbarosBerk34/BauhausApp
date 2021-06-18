@@ -18,7 +18,7 @@ Bu Android uygulaması; tarafımdan yazılmış Web API'den Retrofit kütüphane
 
 ## Ekran Önizlemesi
 <p>
-  <img height= "450"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/main/Screens/Screens.gif" alt="SS1" />
+  <img height= "450"  src="https://github.com/BarbarosBerk34/BauhausApp/blob/main/Screens/Screens.gif" alt="SS1" />
 </p>
 
 ## Proje Mimarisi ve Mimari Paket Yapısı

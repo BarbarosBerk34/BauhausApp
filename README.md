@@ -16,7 +16,7 @@ Bu uygulama Bauhaus sitesi üzerindeki ürünler kullanılarak tasarlanmıştır
 
 Bu Android uygulaması; tarafımdan yazılmış Web API'den Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
 
-## Ekran Görüntüleri
+## Ekran Önizlemesi
 <p>
   <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/screens/Screen_1.png" alt="SS1" />
   <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/screens/Screen_2.png" alt="SS2" />

@@ -10,7 +10,7 @@
 </p>
 
 # Bauhaus Klon Uygulaması
-![appicon](https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/logo.png)
+![appicon](https://github.com/BarbarosBerk34/BauhausApp/blob/main/Photos/ic_launcher.png)
 
 Bu uygulama Bauhaus sitesi üzerindeki ürünler kullanılarak tasarlanmıştır.
 

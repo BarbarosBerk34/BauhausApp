@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.DetailActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/categories_bar_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner_logo" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/categories_divider_height"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/match_constraint"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgProductDetail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/detail_image_size"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/detail_layout_marginVertical"
+                android:layout_marginEnd="@dimen/detail_layout_marginVertical"
+                android:textColor="@color/black"
+                android:textSize="@dimen/detail_txt_name_size"/>
+
+            <TextView
+                android:id="@+id/txtBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/detail_layout_marginVertical"
+                android:layout_marginEnd="@dimen/detail_layout_marginVertical"
+                android:textColor="@color/link_brand_blue"
+                android:textSize="@dimen/detail_txt_brand_size"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/detail_layout_marginVertical">
+
+                <TextView
+                    android:id="@+id/txtPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/detail_layout_marginVertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/detail_txt_price_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/detail_layout_paddingVertical"
+                    android:text="@string/currency_try"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/detail_txt_price_size"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtPrice"
+                    app:layout_constraintStart_toEndOf="@+id/txtPrice"
+                    app:layout_constraintTop_toTopOf="@+id/txtPrice" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_soft"
+                android:paddingStart="@dimen/detail_layout_marginVertical"
+                android:paddingTop="@dimen/detail_layout_paddingVertical"
+                android:paddingEnd="@dimen/detail_layout_marginVertical"
+                android:paddingBottom="@dimen/detail_layout_paddingVertical"
+                android:text="@string/detail_specs_title"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtProductAbout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/detail_layout_marginVertical"
+                android:layout_marginTop="@dimen/detail_about_marginTop"
+                android:layout_marginEnd="@dimen/detail_layout_marginVertical"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

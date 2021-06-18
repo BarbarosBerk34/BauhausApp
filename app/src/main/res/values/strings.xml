@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Bauhaus</string>
+
+    <string name="alert_no_internet_tit">İnternet Bağlantısı Yok</string>
+    <string name="alert_no_internet_msg">Uygulamayı kullanabilmek için internete bağlanın.</string>
+    <string name="alert_no_internet_posBtn">Bağlan</string>
+    <string name="alert_no_internet_negBtn">Kapat</string>
+
+    <string name="alert_exit_tit">Çıkışı Onayla</string>
+    <string name="alert_exit_msg">Çıkış yapmak istiyor musunuz?</string>
+    <string name="alert_exit_posBtn">Evet</string>
+    <string name="alert_exit_negBtn">Hayır</string>
+
+    <string name="alert_sort_tit">Sırala</string>
+    <string name="alert_sort_item_asc">İsme Göre Artan (A-Z)</string>
+    <string name="alert_sort_item_desc">İsme Göre Azalan (Z-A)</string>
+
+    <string name="login_heading">Üye Girişi</string>
+    <string name="login_edit_email">E-posta adresiniz</string>
+    <string name="login_edit_password">Şifreniz</string>
+    <string name="login_button">Giriş Yap</string>
+    <string name="login_error_invalid_fields">Lütfen tüm alanları uygun biçimde doldurunuz.</string>
+    <string name="login_error_wrong_credentials">E-posta veya şifreniz hatalı.</string>
+
+    <string name="categories_activity_welcome">Hoş Geldiniz</string>
+    <string name="categories_search_query_hint">Ara...</string>
+    <string name="categories_title">Kategoriler</string>
+
+    <string name="categories_progress_wait_tit">Kategoriler Yükleniyor</string>
+    <string name="progress_wait_tit">Ürünler Yükleniyor</string>
+    <string name="progress_wait_msg">Lütfen bekleyin...</string>
+
+    <string name="products_title">Ürünler</string>
+    <string name="products_list_type">LİSTE GÖRÜNÜMÜNE GEÇ</string>
+    <string name="products_grid_type">GRID GÖRÜNÜME GEÇ</string>
+    <string name="currency_try">TL</string>
+
+    <string name="detail_specs_title">Ürün Özellikleri</string>
+
+
+</resources>

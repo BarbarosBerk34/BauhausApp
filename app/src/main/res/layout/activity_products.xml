@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.categories.CategoriesActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/products_layout_margin"
+        android:layout_marginTop="@dimen/products_layout_margin"
+        android:layout_marginBottom="@dimen/products_layout_margin"
+        android:text="@string/products_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/categories_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/rcvProducts"
+        app:layout_constraintStart_toStartOf="@+id/btnSort"
+        app:layout_constraintTop_toBottomOf="@+id/btnSort" />
+
+    <TextView
+        android:id="@+id/txtSelectedCategoryName"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/products_layout_margin"
+        android:layout_marginTop="@dimen/products_layout_margin"
+        android:layout_marginEnd="@dimen/products_layout_margin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/products_selectedCategoryName_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/categories_bar_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner_logo" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/categories_divider_height"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnSort"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/products_layout_margin"
+        android:layout_marginTop="@dimen/products_layout_margin"
+        android:background="@color/gray_soft"
+        android:text="@string/alert_sort_tit"
+        app:layout_constraintEnd_toStartOf="@+id/btnToggleRcvLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSelectedCategoryName" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/match_constraint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:listitem="@layout/cardview_product" />
+
+    <Button
+        android:id="@+id/btnToggleRcvLayout"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/products_layout_margin"
+        android:background="@color/gray_soft"
+        android:text="@string/products_list_type"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSort"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSort"
+        app:layout_constraintTop_toTopOf="@+id/btnSort" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

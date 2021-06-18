@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="match_constraint">0dp</dimen>
+
+    <dimen name="splash_logo_height">150dp</dimen>
+
+    <dimen name="login_heading_text_size">18sp</dimen>
+    <dimen name="login_heading_layout_marginTop">16dp</dimen>
+    <dimen name="login_edit_btn_layout_marginTop">22dp</dimen>
+    <dimen name="login_edit_layout_padding">6dp</dimen>
+    <dimen name="login_edit_height">60dp</dimen>
+    <dimen name="login_edit_padding">20dp</dimen>
+    <dimen name="login_edit_btn_layout_marginTopBottom">18dp</dimen>
+    <dimen name="login_button_text_size">20sp</dimen>
+    <dimen name="login_error_text_size">16sp</dimen>
+    <dimen name="login_sub_error_layout_marginTop">8dp</dimen>
+
+    <dimen name="card_view_padding">16dp</dimen>
+    <dimen name="category_card_photo_size">150dp</dimen>
+
+    <dimen name="categories_bar_height">60dp</dimen>
+    <dimen name="categories_bar_layout_marginTopBottom">7dp</dimen>
+    <dimen name="categories_welcome_text_size">18sp</dimen>
+    <dimen name="categories_userName_text_size">20sp</dimen>
+    <dimen name="categories_userIcon_layout_marginTop">16dp</dimen>
+    <dimen name="categories_userIcon_width">55dp</dimen>
+    <dimen name="categories_userIcon_layout_marginStart">16dp</dimen>
+    <dimen name="categories_divider_height">1dp</dimen>
+    <dimen name="categories_text_size">22dp</dimen>
+    <dimen name="categories_rcv_text_layout_marginTopBottom">8dp</dimen>
+
+    <dimen name="products_selectedCategoryName_text_size">30sp</dimen>
+    <dimen name="products_layout_margin">16dp</dimen>
+    <dimen name="product_btnSort_layout_marginLeft">8dp</dimen>
+
+    <dimen name="detail_image_size">350dp</dimen>
+    <dimen name="detail_layout_marginVertical">8dp</dimen>
+    <dimen name="detail_txt_name_size">23sp</dimen>
+    <dimen name="detail_txt_brand_size">18sp</dimen>
+    <dimen name="detail_about_marginTop">5dp</dimen>
+    <dimen name="detail_txt_price_size">20sp</dimen>
+    <dimen name="detail_layout_paddingVertical">4dp</dimen>
+
+</resources>

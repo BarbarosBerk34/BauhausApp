@@ -27,7 +27,7 @@ Bu Android uygulaması; tarafımdan yazılmış Web API'den Retrofit kütüphane
 
 ## Proje Mimarisi ve Mimari Paket Yapısı
 Bu projede MVVM [Model-View-ViewModel] mimarisi kullanılmıştır.<br><br>
-![Architecture](https://github.com/BarbarosBerk34/BauhausApp/blob/main/images/MVVM.png)
+![Architecture](https://github.com/BarbarosBerk34/BauhausApp/blob/main/Photos/MVVM.png)
 
 ## Kütüphaneler ve Araçlar 🛠
 <li><a href="https://github.com/square/retrofit">Retrofit</a></li>

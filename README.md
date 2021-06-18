@@ -9,12 +9,12 @@
 <img src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/banner.jpg"/>
 </p>
 
-# 2020 Xiaomi Telefonları Uygulaması
+# Bauhaus Klon Uygulaması
 ![appicon](https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/logo.png)
 
-Bu uygulama Xiaomi markasının, Redmi ve Poco alt markaları da dahil olmak üzere, 2020 yılında çıkardığı telefonları listeler.
+Bu uygulama Bauhaus sitesi üzerindeki ürünler kullanılarak tasarlanmıştır.
 
-Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubusercontent.com/BarbarosBerk34/h5190007barbarosberkgelenbe/main/MiPhonesAPI.json" target="_blank"> Web API'den</a> Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
+Bu Android uygulaması; tarafımdan yazılmış Web API'den Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
 
 ## Ekran Görüntüleri
 <p>
@@ -26,13 +26,13 @@ Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubuserc
 </p>
 
 ## Proje Mimarisi ve Mimari Paket Yapısı
-Bu projede MVC [Model-View-Controller] mimarisi kullanılmıştır.<br><br>
-![Architecture](https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/MimariPaketYapisi.png)
+Bu projede MVVM [Model-View-ViewModel] mimarisi kullanılmıştır.<br><br>
+![Architecture](https://github.com/BarbarosBerk34/BauhausApp/blob/main/images/MVVM.png)
 
 ## Kütüphaneler ve Araçlar 🛠
 <li><a href="https://github.com/square/retrofit">Retrofit</a></li>
 <li><a href="https://github.com/square/okhttp">OkHttp</a></li>
-<li><a href="https://github.com/ReactiveX/RxJava">RxJava</a></li>
+<li><a href="https://kotlinlang.org/docs/coroutines-overview.html">Coroutines</a></li>
 <li><a href="https://github.com/bumptech/glide">Glide</a></li>
 <li><a href="https://developer.android.com/jetpack/androidx/releases/cardview">CardView</a></li>
 <li><a href="https://developer.android.com/jetpack/androidx/releases/recyclerview">RecyclerView</a></li>

@@ -12,9 +12,9 @@
 # Bauhaus Klon Uygulaması
 ![appicon](https://github.com/BarbarosBerk34/BauhausApp/blob/main/Photos/ic_launcher.png)
 
-Bu uygulama Bauhaus sitesi üzerindeki ürünler kullanılarak tasarlanmıştır.
+Bu uygulama <a href="https://www.bauhaus.com.tr/" target="_blank">Bauhaus</a> sitesi üzerindeki kategorileri ve ürünleri MVVM mimarisi ile RecyclerView kullanarak listeler. Uygulamada bir JSON kullanıcı havuzundaki bilgiler ile kullanıcı girişi sağlanır.
 
-Bu Android uygulaması; tarafımdan yazılmış Web API'den Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
+Bu Android uygulaması; tarafımdan yazılmış <a href="https://github.com/BarbarosBerk34/BauhausWebService/" target="_blank"> Web API'den</a> Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
 
 ## Ekran Önizlemesi
 <p>

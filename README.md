@@ -6,7 +6,7 @@
 <a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
 
 <p align="center">
-<img src="https://github.com/BarbarosBerk34/BauhausApp/blob/main/images/banner_logo.png"/>
+<img src="https://github.com/BarbarosBerk34/BauhausApp/blob/main/Photos/banner_logo.png"/>
 </p>
 
 # Bauhaus Klon Uygulaması
